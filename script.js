@@ -17,7 +17,7 @@ for (let i = 0; i < lifeEvents.length; i++) {
 
 let counter = 0;
 while (true) {
-    let randomNum = Math.floor(Math.random() * 11);
+    let randomNum = Math.floor((Math.random() * 10) + 1);
     if (randomNum !== 5) {
         counter++;
         console.log(`${randomNum} !==5!`);
