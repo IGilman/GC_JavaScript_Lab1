@@ -16,7 +16,7 @@ function myFunction() {
         overtimehours = totalhours - 40;
         timeandhalf = wage * 1.5;
         overtimewage = overtimehours * timeandhalf;
-        print = wage * hours + overtimewage;
+        print = (wage * 40) + overtimewage;
         document.getElementById("printout").innerHTML = print;
     }
     else {
