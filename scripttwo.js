@@ -1,3 +1,5 @@
+//I only got the first half of this done. The $1 million part is not done here
+
 let print = null;
 let totalhours;
 let overtimehours;
